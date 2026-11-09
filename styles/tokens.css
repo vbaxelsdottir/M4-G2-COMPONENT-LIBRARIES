@@ -1,0 +1,29 @@
+/* Shared design values. Components reference these rather than duplicate them. */
+:root {
+  --color-green: #214e3a;
+  --color-green-dark: #183a2b;
+  --color-blue: #bfd9e8;
+  --color-cream: #f8f5ed;
+  --color-ink: #252525;
+  --color-white: #ffffff;
+  --color-error: #a5212a;
+  --color-favorite: #e0393e;
+  --color-filter: #e3eef5;
+  --color-selected-border: #8fb3c9;
+  --color-grey-hover: #c8c8c8;
+  --radius-pill: 999px;
+  --color-border: #d9d9d9;
+  --font-heading: "Freeman", sans-serif;
+  --font-body: "Amarna", system-ui, sans-serif;
+  /* A proposed spacing scale, extracted from recurring values in TÍNT. */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 48px;
+  --space-8: 64px;
+  --radius-control: 8px;
+  --radius-panel: 12px;
+}
